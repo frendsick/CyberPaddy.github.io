@@ -1,0 +1,37 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
+}
+
+.qr-component {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+
+    /* center div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.qr-component img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.qr-component h2 {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-component p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.qr-component-text {
+    padding: 0 20px 8px 20px;
+}
